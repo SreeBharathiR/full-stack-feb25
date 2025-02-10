@@ -1,0 +1,28 @@
+<!Doctype html>
+<html>
+<head>
+<title>My Website</title>
+</head>
+<body>
+Hi everyone
+</body>
+</html>
+
+<p>Hi</p>s
+text editor - vs editor
+
+list - two types - order (ol) & unorder (ul)
+li - list item
+
+table - table , tr (table row),td (table data), th(table heading)
+
+
+web page - header, main content, footer
+semantic elements - (meaning element) <header>, nav(navigation), footer,main,section
+
+web reader - 
+
+
+div - container elements
+
+entities & symbols - emojies (win +.)
