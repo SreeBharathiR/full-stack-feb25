@@ -1,0 +1,18 @@
+semantic elements - header, main, footer, section,nav, asides
+
+entities and symbols- win+.
+
+form - inputfields - <input>
+
+inline elements - input,span ,img , b, strong,mark
+block level elements - h1-h6, p, 
+
+div (block) - container element,span (inline )
+
+css - 3 types - 
+inline - priority (3)
+internal - priority (2)
+external - priority (1)
+
+selector - 
+
