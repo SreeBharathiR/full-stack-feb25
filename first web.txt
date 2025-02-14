@@ -24,5 +24,10 @@ web reader -
 
 
 div - container elements
+span-inline element
 
 entities & symbols - emojies (win +.)
+
+
+id- uniques
+class- group
