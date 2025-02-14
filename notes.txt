@@ -14,5 +14,22 @@ inline - priority (3)
 internal - priority (2)
 external - priority (1)
 
-selector - 
+selector - Universal selector - reset
+simple selector - tag,id-#,class-.
+combinator selector - tag,id,class
+Pseudo selector
+attribute selector
+
+css properties:color
+
+BOX Model -
+
+Content
+border  - style type, width, color
+padding - space inside that element
+margin  - space outside the element
+
+Text properties
+
+display - none, block, flex
 
