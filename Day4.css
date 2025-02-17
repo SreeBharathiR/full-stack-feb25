@@ -1,0 +1,42 @@
+* {
+  font-family: "Times New Roman", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  text-decoration: underline;
+  text-transform: capitalize;
+  text-decoration-color: rgb(255, 230, 0);
+  color: chocolate;
+}
+/* 
+p {
+ 
+} */
+
+#para1 {
+  color: #ac4116;
+  background-color: bisque;
+  font-size: 1rem;
+  font-weight: 600;
+  font-style: italic;
+  font-variant: small-caps;
+}
+.paraClass {
+  color: brown;
+}
+.container {
+  height: 400px;
+  width: 500px;
+  background-image: url("./image.png");
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  background-position: right;
+  background-color: rgba(0, 136, 255, 0);
+}
+.container p {
+  color: aqua;
+}
+.container h2 {
+  color: rgb(239, 246, 252);
+}

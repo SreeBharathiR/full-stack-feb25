@@ -31,3 +31,17 @@ entities & symbols - emojies (win +.)
 
 id- uniques
 class- group
+
+CSS - Cascading style sheet
+
+
+types - inline styling, internal, external file
+
+selectors - 
+
+Universal - * (reset)
+simple selector - tag name, id name, class name
+combinator selector
+attribute
+psuedo selector
+
