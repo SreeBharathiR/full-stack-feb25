@@ -45,3 +45,15 @@ combinator selector
 attribute
 psuedo selector
 
+Box model -
+
+1.content
+2.border - style (border width short hand - top right btm left)
+3.padding  - gives space within element
+4.margin  - gives spaces outside that element
+
+
+layout - display - block,none, flex, advanced (grid)
+
+position - static(default) , relative, absolute, fixed
+

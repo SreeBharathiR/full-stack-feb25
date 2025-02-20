@@ -1,0 +1,19 @@
+css - cascading style sheet
+
+css 3 types - 
+1. inline - 1 pre
+2. internal -3
+3. external -2
+
+selectors -
+1. universal selector - * (reset)
+2. simple selector - tag name, id name - #, class name - .
+3. combinator selector
+4. pseduo selector
+5. attribute 
+
+
+properties 
+text
+
+1 rem = 16px

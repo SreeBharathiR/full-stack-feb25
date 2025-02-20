@@ -1,0 +1,31 @@
+* {
+  font-family: cursive;
+}
+h1 {
+  color: #fffb00;
+  text-decoration: underline;
+  text-decoration-color: blue;
+  text-align: center;
+  text-transform: capitalize;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 2rem;
+}
+h1:hover {
+  color: black;
+}
+h2 {
+  color: chartreuse;
+}
+#sathishSubHeading {
+  background-color: aquamarine;
+}
+.sathishPara {
+  background-color: blanchedalmond;
+  font-weight: 500;
+  font-style: italic;
+  font-variant: small-caps;
+}
+
+.container h2 {
+  color: blueviolet;
+}
