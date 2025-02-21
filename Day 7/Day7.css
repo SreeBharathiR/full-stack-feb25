@@ -1,0 +1,57 @@
+.container {
+  background-color: blueviolet;
+  height: 100px;
+  width: 100px;
+  border-radius: 0;
+  transition: border-radius 3s ease 2s;
+  /* transition-property: border-radius background-color ; */
+  /* transition-delay: 1s; */
+  /* transition-duration: 5s; */
+  /* transition-timing-function: ease-out; */
+  margin-top: 20px;
+}
+.container:hover {
+  border-radius: 50%;
+  background-color: brown;
+}
+
+.animationContainer {
+  height: 100px;
+  width: 100px;
+  background-color: tomato;
+  position: relative;
+  left: 0px;
+  /* animation-name: firstAnimation;
+  animation-duration: 5s;
+  animation-delay: 10ms;
+  animation-timing-function: ease-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse; */
+  animation: firstAnimation 5s ease 2s 3 alternate-reverse;
+}
+
+@keyframes firstAnimation {
+  /* from {
+    background-color: tomato;
+    left: 0px;
+  }
+  to {
+    background-color: aqua;
+    left: 30px;
+  } */
+  0% {
+    background-color: tomato;
+    left: 0px;
+  }
+  25% {
+    width: 150px;
+  }
+  50% {
+    background-color: aqua;
+    left: 30px;
+  }
+  100% {
+    background-color: tomato;
+    left: 0px;
+  }
+}

@@ -13,13 +13,18 @@ body {
   /* justify-content: space-evenly; */
   justify-content: flex-end;
   align-items: flex-end;
-  position: relative;
+  /* position: relative; */
+}
+h1 {
+  position: sticky;
+  top: 0;
+  background-color: beige;
 }
 .box {
   background-color: bisque;
   width: 130px;
   height: 130px;
-  position: fixed;
+  position: sticky;
   left: 0;
   top: 0px;
   /* bottom: 0; */

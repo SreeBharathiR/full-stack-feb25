@@ -55,5 +55,10 @@ Box model -
 
 layout - display - block,none, flex, advanced (grid)
 
-position - static(default) , relative, absolute, fixed
+position - static(default) , relative, absolute, fixed, sticky
 
+transition - transition-delay, duration,property,timing-funtion
+
+animation - name, duration, delay, timing-function, iteration-count,direction, animation
+
+@keyframes
