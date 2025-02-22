@@ -1,0 +1,38 @@
+html - structure , css - style, js - fun, interaction
+
+! + enter
+
+
+heading - h1 to h6
+
+element - open tag + content+ close tag
+
+para - p, pre
+
+formatting elements
+
+inline element - b, strong, mark, span,i, label
+block level elements - p, pre, h1 - h6
+
+image - img
+
+attributes 
+
+link - anchor tag (a)
+
+comments - ctrl + /
+list - ol , ul ,li (items)
+
+table - table head, table footer
+
+semantic elements- header, main , footer, aside, section, nav
+
+
+entity & symbol - emojies - win + .
+
+
+form
+
+input 
+
+id - unique, class
