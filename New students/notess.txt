@@ -36,3 +36,29 @@ form
 input 
 
 id - unique, class
+
+div (container element), span(inline)
+
+css - 
+
+type - 3 
+
+1. inline style - 1 pripority
+2. internal style - 3
+3. external style (recommed) - 2
+
+selectors 
+1. universal selector - * (reset)
+2. simple selector - tag, id- #, class - .
+3. combinator
+4. psuedo 
+5. attribute
+
+1 rem ,em = 16px
+
+BOX Model
+
+1. content
+2. padding - space within the element 
+3. border - style
+4. margin

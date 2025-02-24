@@ -7,23 +7,72 @@
   </head>
   <body>
     <h1 class="heading">Form creation</h1>
-    <label for="name"> Name</label>
-    <input type="text" id="name" />
-    <br />
-    <br />
-    <label for="email">Email</label>
-    <input type="email" id="email" />
-    <br />
-    <br />
-    <label>YOP</label>
-    <input type="number" />
-    <br />
-    <br />
-    <label>Resume</label>
-    <input type="file" accept=".pdf" />
-    <br />
-    <br />
-    <label>Password</label>
-    <input type="password" />
+    <form>
+      <label for="name"> Name</label>
+      <input type="text" id="name" placeholder="Enter your name.." required />
+      <br />
+      <br />
+      <label for="email">Email</label>
+      <input type="email" id="email" placeholder="Enter your email" />
+      <br />
+      <br />
+      <label>YOP</label>
+      <input type="number" required />
+      <br />
+      <br />
+      <label>Resume</label>
+      <input type="file" accept=".pdf" />
+      <br />
+      <br />
+      <label>Password</label>
+      <input type="password" />
+      <br />
+      <br />
+      <label>DOB</label>
+      <input type="date" />
+      <br />
+      <br />
+      <label>Dept</label>
+      <select>
+        <option disabled selected>Select your Dept</option>
+        <option>IT</option>
+        <option>CSE</option>
+        <option>ECE</option>
+      </select>
+      <br />
+      <br />
+      <label for="gender">Gender</label>
+      <input type="radio" name="gender" />
+      <label>Male</label>
+      <input type="radio" name="gender" />
+      <label>Female</label>
+      <br />
+      <br />
+      <input type="checkbox" /><label for="">Agree</label>
+      <br />
+      <br />
+      <button type="submit">Submit</button>
+
+      <br />
+      <button><a href="./index.html">Next</a></button>
+      <div>
+        <h3>Div container</h3>
+        <p>
+          Lorem ipsum, <span style="color: blueviolet">dolor</span> sit amet
+          consectetur adipisicing elit. Recusandae impedit, commodi, totam
+          voluptatum error omnis iusto eius velit id est reprehenderit
+          exercitationem? Odit enim culpa, reiciendis tempora corrupti
+          exercitationem architecto?
+        </p>
+      </div>
+    </form>
+    <video controls height="500px" width="300px" autoplay>
+      <source
+        src="./Meet - zyr-nqjs-ayc - Google Chrome 2025-02-12 18-48-43.mp4"
+      />
+    </video>
+    <audio>
+      <source src="" />
+    </audio>
   </body>
 </html>

@@ -1,0 +1,44 @@
+.cardsParent {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  /* height: 100vh; */
+}
+.subParent {
+  display: flex;
+  gap: 10px;
+}
+.card {
+  height: 150px;
+  width: 150px;
+  background-color: rgb(102, 102, 102);
+  border-radius: 10px;
+}
+.image {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+input[type="text"] {
+  color: blueviolet;
+  background-color: rgb(212, 252, 175);
+}
+@media screen and (max-width: 1024px) {
+  .cardsParent {
+    flex-direction: row;
+  }
+}
+@media screen and (max-width: 768px) {
+  .subParent {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 425px) {
+  .cardsParent {
+    flex-direction: column;
+  }
+  .subParent {
+    flex-direction: row;
+  }
+}

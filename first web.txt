@@ -62,3 +62,5 @@ transition - transition-delay, duration,property,timing-funtion
 animation - name, duration, delay, timing-function, iteration-count,direction, animation
 
 @keyframes
+
+Media query - responsive 
