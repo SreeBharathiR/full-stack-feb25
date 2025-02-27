@@ -64,3 +64,15 @@ animation - name, duration, delay, timing-function, iteration-count,direction, a
 @keyframes
 
 Media query - responsive 
+
+JavaScript - scripting & programming
+
+v8 engine - js run help
+
+run time environment - browsers, nodejs (outside the browser)
+
+two way to use js in html - internal, external
+
+variable -like a storage container
+
+var, let, const
