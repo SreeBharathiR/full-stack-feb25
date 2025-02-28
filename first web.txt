@@ -75,4 +75,20 @@ two way to use js in html - internal, external
 
 variable -like a storage container
 
-var, let, const
+var - es1, let, const -(es6)
+
+1997 - es1
+
+data type - int a = 5;
+
+1. primitive data type  - Numbers, string,boolean - true, false,undefined,null
+2. non primitive data type - objects, arrays, function
+
+operators 
+1.arithmetic operators -> +,-,/,*,%,**, uniary operator (++,--)
+2.assignment operators
+3.comparision operators
+4.Logical operators.
+5.ternary operator
+
+
