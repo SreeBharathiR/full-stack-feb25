@@ -86,9 +86,17 @@ data type - int a = 5;
 
 operators 
 1.arithmetic operators -> +,-,/,*,%,**, uniary operator (++,--)
-2.assignment operators
-3.comparision operators
-4.Logical operators.
-5.ternary operator
+2.assignment operators -> +=, -=, *=, /=, **=
+3.comparision operators -> ==, ===, !=, !==, >, <, >=, <=
+4.Logical operators - AND - &&, OR - ||, NOT - !
+5.ternary operator 
+
+Condition statement
+
+1. if
+2. if elements
+3. if else if else
+4. switch case
+5. nested if
 
 
