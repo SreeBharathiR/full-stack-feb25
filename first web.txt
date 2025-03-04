@@ -89,14 +89,23 @@ operators
 2.assignment operators -> +=, -=, *=, /=, **=
 3.comparision operators -> ==, ===, !=, !==, >, <, >=, <=
 4.Logical operators - AND - &&, OR - ||, NOT - !
-5.ternary operator 
+5.ternary operator  - condition ? true statement : false statement;
 
 Condition statement
 
 1. if
-2. if elements
-3. if else if else
+2. if else
+3. if elseif else
 4. switch case
 5. nested if
 
+Loops 
 
+steps - initialization, condition, increment/decrement
+
+1. for Loop
+for ( initialization ; condition ; incretment){
+
+}
+2. while Loop - dynamic value
+3. do while
