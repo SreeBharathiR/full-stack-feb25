@@ -91,15 +91,60 @@ const actress = "Ivana";
 //   console.log(`JavaScript ${i}`);
 // }
 
-let i = 1;
-while (i < 100) {
-  console.log(i);
-  // i = i - 3;
-  i = i * 5;
-}
+// let i = 1;
+// while (i < 100) {
+//   console.log(i);
+//   // i = i - 3;
+//   i = i * 5;
+// }
 
 // tables
 
 // 1 X 2 = 2
 // 2 X 2 = 4
 // 3 X 2 = 6
+
+// let i = 10;
+
+// do {
+//   console.log(i);
+//   i++;
+// } while (i < 10);
+
+let num = 534;
+let result = "";
+
+for (let i = 0; i < num; i++) {
+  let reminder = num % 10;
+
+  result = result * 10 + reminder;
+
+  num = parseInt(num / 10);
+}
+console.log(result);
+//4
+// let reminder = 534 % 10;
+// console.log(reminder);
+
+//3
+// num = parseInt(num / 10);
+// console.log(num);
+
+// result = reminder;
+
+// reminder = num % 10;
+// console.log(reminder);
+// console.log(`result ${result}`);
+
+// result = result * 10 + reminder;
+// console.log(`result ${result}`);
+
+//5
+// num = parseInt(num / 10);
+
+// reminder = num % 10;
+// console.log(reminder);
+// console.log(`result ${result}`);
+
+// result = result * 10 + reminder;
+// console.log(`result ${result}`);

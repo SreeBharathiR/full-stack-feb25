@@ -108,4 +108,12 @@ for ( initialization ; condition ; incretment){
 
 }
 2. while Loop - dynamic value
-3. do while
+3. do while 
+
+
+problem solving 
+1. split
+2. input string convert - Number
+
+
+
