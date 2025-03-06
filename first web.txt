@@ -116,4 +116,33 @@ problem solving
 2. input string convert - Number
 
 
+Function - block of reusable code
 
+1. in built function  - typeof, Number, length
+2. user defined function
+
+steps
+1. function create
+2. function call
+
+return
+
+
+String - "" (sequence of character), immutable 
+
+create - "",'',``
+
+
+
+Sree ->        S r e e
+personName ->  0 1 2 3 (index)
+
+
+methods in string 
+1. charAt (old version) (not allowing negative index)
+2. at (new ES2022) (allows negative index)
+3. chatCodeAt
+4. split
+5. slice , substring
+6. uppercase
+7. lowercase

@@ -148,3 +148,67 @@ console.log(result);
 
 // result = result * 10 + reminder;
 // console.log(`result ${result}`);
+
+//user-defined function
+// console.log(Number("123"));
+// function funcName() {
+//   console.log("This is function");
+// }
+
+// funcName();
+
+// function greeting(person) {
+//   console.log(`Good evening ${person}`);
+// }
+
+// greeting("Sree");
+
+// greeting("Bharathi");
+
+// function sum(n1, n2) {
+//   let add = n1 + n2;
+//   return add;
+// }
+
+// function subtraction(n1, n2) {
+//   if (n1 > n2) {
+//     return n1 - n2;
+//   } else {
+//     return n2 - n1;
+//   }
+// }
+// let total = sum(2, 4);
+// console.log(total);
+
+// console.log(subtraction(10, 15));
+
+let personName = "Sree Bharathi";
+// personName = "Yuvan";
+// console.log(personName);
+// console.log(personName[2]);
+// personName[2] = "t";
+// console.log(personName);
+
+// console.log(personName[3]);
+// console.log(personName.charAt(-3));
+// console.log(personName.at(-3));
+// console.log(personName.indexOf("r"));
+
+// console.log("?".charCodeAt());
+// console.log(personName.split("|"));
+
+// let firstName = personName.slice(-5, -1);
+// console.log(firstName);
+// console.log(personName.toLowerCase());
+// console.log(personName.toUpperCase());
+
+// personName = personName + " Ramaraj";
+// console.log(personName);
+
+// let fullName = personName.concat(" Ramaraj");
+
+// console.log(fullName);
+
+let changedName = personName.replaceAll("a", "A");
+console.log(changedName);
+console.log(personName);
