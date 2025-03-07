@@ -111,17 +111,17 @@ const actress = "Ivana";
 //   i++;
 // } while (i < 10);
 
-let num = 534;
-let result = "";
+// let num = 534;
+// let result = "";
 
-for (let i = 0; i < num; i++) {
-  let reminder = num % 10;
+// for (let i = 0; i < num; i++) {
+//   let reminder = num % 10;
 
-  result = result * 10 + reminder;
+//   result = result * 10 + reminder;
 
-  num = parseInt(num / 10);
-}
-console.log(result);
+//   num = parseInt(num / 10);
+// }
+// console.log(result);
 //4
 // let reminder = 534 % 10;
 // console.log(reminder);
@@ -182,7 +182,7 @@ console.log(result);
 
 // console.log(subtraction(10, 15));
 
-let personName = "Sree Bharathi";
+// let personName = "Sree Bharathi";
 // personName = "Yuvan";
 // console.log(personName);
 // console.log(personName[2]);
@@ -209,6 +209,78 @@ let personName = "Sree Bharathi";
 
 // console.log(fullName);
 
-let changedName = personName.replaceAll("a", "A");
-console.log(changedName);
-console.log(personName);
+// let changedName = personName.replaceAll("a", "A");
+// console.log(changedName);
+// console.log(personName);
+
+let personName = "Sree Bharathi";
+// console.log(personName);
+// let trimmedValue = personName.trimEnd();
+// console.log(trimmedValue);
+
+// console.log(personName.indexOf("e"));
+// console.log(personName.lastIndexOf("e"));
+
+// console.log(personName.includes("ara"));
+
+// console.log(personName.startsWith("s"));
+
+// console.log(personName.endsWith("the"));
+
+//Array
+
+//declaration
+
+// let arrayName = new Array("sathish", "dinesh");
+let arrayName = ["sathish", "dinesh"];
+console.log(arrayName);
+
+arrayName.push("manoj");
+arrayName[3] = 100;
+console.log(arrayName);
+
+console.log(arrayName.length);
+console.log(arrayName.at(2));
+console.log(arrayName[2]);
+
+let array2 = [10, "hari", 100, 567];
+
+// let totalArray = arrayName.join(array2);
+// console.log(totalArray);
+
+// console.log(arrayName.concat(array2, "54"));
+
+//spread
+const totalNew = [...arrayName, ...array2];
+// console.log(totalNew);
+
+// let last = totalNew.pop();
+// console.log(last);
+// console.log(totalNew);
+
+// totalNew.shift();
+// console.log(totalNew);
+
+// totalNew.unshift("ragul");
+// console.log(totalNew);
+
+// const sliced = totalNew.slice(0, 3);
+// console.log(sliced.toString());
+console.log(totalNew);
+
+// const splicedArr = totalNew.splice(
+//   2,
+//   4,
+//   "New",
+//   "items",
+//   "vignesh",
+//   "kumar",
+//   "vijay"
+// );
+// console.log(splicedArr);
+// console.log(totalNew);
+
+console.log(totalNew.indexOf(100));
+console.log(totalNew.lastIndexOf(100));
+
+console.log(totalNew.includes("dinesh"));

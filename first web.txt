@@ -146,3 +146,30 @@ methods in string
 5. slice , substring
 6. uppercase
 7. lowercase
+8. replace, replaceAll
+9. trim
+10. indexOf
+11. includes
+
+
+Arrays - store multiple values in single variable (dynamic in size)
+
+[]
+
+operations
+
+methods
+
+1. length
+2. at
+3. join
+4. spread
+5. pop
+6. shift
+7. unshift
+8. concat
+9. slice
+10. toString
+11. splice - index, delete count, new items
+12. indexOf
+13. includes
