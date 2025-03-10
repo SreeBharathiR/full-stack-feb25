@@ -213,7 +213,7 @@ const actress = "Ivana";
 // console.log(changedName);
 // console.log(personName);
 
-let personName = "Sree Bharathi";
+// let personName = "Sree Bharathi";
 // console.log(personName);
 // let trimmedValue = personName.trimEnd();
 // console.log(trimmedValue);
@@ -232,18 +232,18 @@ let personName = "Sree Bharathi";
 //declaration
 
 // let arrayName = new Array("sathish", "dinesh");
-let arrayName = ["sathish", "dinesh"];
-console.log(arrayName);
+// let arrayName = ["sathish", "dinesh"];
+// console.log(arrayName);
 
-arrayName.push("manoj");
-arrayName[3] = 100;
-console.log(arrayName);
+// arrayName.push("manoj");
+// arrayName[3] = 100;
+// console.log(arrayName);
 
-console.log(arrayName.length);
-console.log(arrayName.at(2));
-console.log(arrayName[2]);
+// console.log(arrayName.length);
+// console.log(arrayName.at(2));
+// console.log(arrayName[2]);
 
-let array2 = [10, "hari", 100, 567];
+// let array2 = [10, "hari", 100, 567];
 
 // let totalArray = arrayName.join(array2);
 // console.log(totalArray);
@@ -251,7 +251,7 @@ let array2 = [10, "hari", 100, 567];
 // console.log(arrayName.concat(array2, "54"));
 
 //spread
-const totalNew = [...arrayName, ...array2];
+// const totalNew = [...arrayName, ...array2];
 // console.log(totalNew);
 
 // let last = totalNew.pop();
@@ -266,7 +266,7 @@ const totalNew = [...arrayName, ...array2];
 
 // const sliced = totalNew.slice(0, 3);
 // console.log(sliced.toString());
-console.log(totalNew);
+// console.log(totalNew);
 
 // const splicedArr = totalNew.splice(
 //   2,
@@ -280,7 +280,49 @@ console.log(totalNew);
 // console.log(splicedArr);
 // console.log(totalNew);
 
-console.log(totalNew.indexOf(100));
-console.log(totalNew.lastIndexOf(100));
+// console.log(totalNew.indexOf(100));
+// console.log(totalNew.lastIndexOf(100));
 
-console.log(totalNew.includes("dinesh"));
+// console.log(totalNew.includes("dinesh"));
+
+let arr = [10, 7, 30, 50, 5, 4, 0, -2];
+
+// function sorting(array) {
+//   console.log(array);
+//   for (let j = 0; j < arr.length; j++) {
+//     for (let i = 0; i < arr.length; i++) {
+//       if (array[i] > array[i + 1]) {
+//         let temp = array[i];
+//         array[i] = array[i + 1];
+//         array[i + 1] = temp;
+//       }
+//     }
+//   }
+//   return array;
+// }
+
+// let newArr = sorting(arr);
+// console.log(newArr);
+// newArr = sorting(arr);
+// console.log(newArr);
+
+//console.log(arr.sort((a, b) => b - a)); //check and ref
+
+// arr.forEach((value, i) => {
+//   console.log(`${i} : value ${value}`);
+// });
+
+// let newArr = arr.map((value) => {
+//   if (value % 2 == 0) {
+//     return value * 2;
+//   } else {
+//     return value;
+//   }
+// });
+console.log(arr);
+// console.log(newArr);
+
+const filteredArr = arr.filter((value) => value % 2 !== 0);
+console.log(filteredArr);
+
+// array

@@ -173,3 +173,10 @@ methods
 11. splice - index, delete count, new items
 12. indexOf
 13. includes
+
+advanced
+
+1. sort
+2. forEach
+3. map
+4. filter
