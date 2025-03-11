@@ -285,7 +285,7 @@ const actress = "Ivana";
 
 // console.log(totalNew.includes("dinesh"));
 
-let arr = [10, 7, 30, 50, 5, 4, 0, -2];
+// let arr = [10, 7, 30, 50, 5, 4, 100, -2];
 
 // function sorting(array) {
 //   console.log(array);
@@ -319,10 +319,41 @@ let arr = [10, 7, 30, 50, 5, 4, 0, -2];
 //     return value;
 //   }
 // });
-console.log(arr);
+// console.log(arr);
 // console.log(newArr);
 
-const filteredArr = arr.filter((value) => value % 2 !== 0);
-console.log(filteredArr);
+// const filteredArr = arr.filter((value) => value % 2 !== 0);
+// console.log(filteredArr);
 
 // array
+
+// const evenNumArray = arr.some((value) => value === 100);
+// console.log(evenNumArray);
+
+// const sumFunc = (a, b) => {
+//   return a + b;
+// };
+
+// console.log(sumFunc(2, 4));
+
+//object
+
+const ragulDetails = {
+  name: "Ragulkanth",
+  place: "Chennai",
+  phno: 123456786,
+  isStudent: true,
+  favNum: [1, 15, 88],
+  address: {
+    state: "Tamil Nadu",
+    country: "India",
+    doorNo: 10,
+  },
+};
+
+ragulDetails["email"] = "ragul@gmail.com";
+ragulDetails.password = "ragul@123";
+ragulDetails.password = "Ragul";
+console.log(ragulDetails);
+
+console.log(Object.entries(ragulDetails));

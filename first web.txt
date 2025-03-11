@@ -180,3 +180,16 @@ advanced
 2. forEach
 3. map
 4. filter
+5. reduce
+6. some
+7. every
+
+legacy - old 
+
+
+Object - { rollno:10,age:20,name:"sree"} - unordered
+
+1. Object.values, keys, entries
+
+
+DOM - Document Object Model
