@@ -193,3 +193,11 @@ Object - { rollno:10,age:20,name:"sree"} - unordered
 
 
 DOM - Document Object Model
+
+1. listen the element
+2. action 
+3. reaction
+
+Form validation
+
+DOM task approach

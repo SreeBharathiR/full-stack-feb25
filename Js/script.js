@@ -285,7 +285,7 @@ const actress = "Ivana";
 
 // console.log(totalNew.includes("dinesh"));
 
-// let arr = [10, 7, 30, 50, 5, 4, 100, -2];
+let arr = [10, 7, 30, 50, 5, 4, 0, -2];
 
 // function sorting(array) {
 //   console.log(array);
@@ -319,7 +319,7 @@ const actress = "Ivana";
 //     return value;
 //   }
 // });
-// console.log(arr);
+console.log(arr);
 // console.log(newArr);
 
 // const filteredArr = arr.filter((value) => value % 2 !== 0);
