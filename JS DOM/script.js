@@ -40,22 +40,20 @@ form.addEventListener("submit", (e) => {
   e.preventDefault();
   try {
     let error = false;
-    if (nameField.value.trim() !== "") {
-    } else {
+    if (nameField.value.trim() === "") {
       error = true;
       console.log("Name is required");
     }
-    if (password.value.trim() !== "") {
-    } else {
+    if (password.value.trim() === "") {
       error = true;
       console.log("Password is required");
     }
-    if (confirmPass.value.trim() !== "") {
-    } else {
+    if (confirmPass.value.trim() === "") {
       error = true;
       console.log("Confirm password is required");
     }
-    if (/^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z]).{8,16}$/.test(password)) {
+    if (!/^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z]).{8,16}$/.test(password.value)) {
+      error = true;
       console.log("Invalid format");
     }
     if (
@@ -75,4 +73,21 @@ form.addEventListener("submit", (e) => {
 });
 
 const a = 10.0;
-console.log(a / 0);
+
+try {
+  let b = a / 0;
+  // throw new Error("Custom Error");
+} catch (error) {
+  console.log(error);
+} finally {
+  console.log("final part");
+}
+
+console.log(c);
+var c = 10;
+
+greet();
+
+function greet() {
+  console.log("good evening");
+}
