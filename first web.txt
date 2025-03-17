@@ -185,6 +185,7 @@ advanced
 7. every
 
 legacy - old 
+syntantic sugar - new version
 
 
 Object - { rollno:10,age:20,name:"sree"} - unordered
@@ -201,3 +202,18 @@ DOM - Document Object Model
 Form validation
 
 DOM task approach
+
+
+Oops - Object orentied programming
+
+function
+factory function 
+oops - function constructor
+
+
+getter & setter
+
+1. Inheritance - single, multilevel, hierarchical, multiple, hybrid
+2. Encapsulation - privant & hide
+3. Abstraction - hiding implementions
+4. Polymorphism - method overloading, method overriding
