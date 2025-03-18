@@ -217,3 +217,24 @@ getter & setter
 2. Encapsulation - privant & hide
 3. Abstraction - hiding implementions
 4. Polymorphism - method overloading, method overriding
+
+setTimeOut
+
+setTimeOut(function,delay(ms))
+
+clearTimeOut(timeoutId);
+
+setInterval()
+
+clearInterval()
+
+setInterval(function,interval(ms))
+
+hoisting
+
+localStorage
+
+1. setItem
+2. getItem
+3. removeItem
+4. clear()
