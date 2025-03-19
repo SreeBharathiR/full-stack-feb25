@@ -238,3 +238,20 @@ localStorage
 2. getItem
 3. removeItem
 4. clear()
+
+currying function
+
+async/await
+
+fetch
+
+
+bootstrap
+
+open source
+front- end framework
+designing
+grid - responsive designing
+js plugins
+
+(design fast development)
