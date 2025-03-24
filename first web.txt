@@ -255,3 +255,30 @@ grid - responsive designing
 js plugins
 
 (design fast development)
+
+
+
+ES6 concepts
+
+import export
+
+default export
+named export
+
+desturing
+
+callback function
+
+spread operator - ...
+
+rest operator - ...
+
+React 
+
+page reload
+
+component - reusable, hard code
+
+jsx - html tags
+
+declarative programming
