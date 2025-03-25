@@ -273,7 +273,7 @@ spread operator - ...
 
 rest operator - ...
 
-React 
+"React"
 
 page reload
 
@@ -282,3 +282,29 @@ component - reusable, hard code
 jsx - html tags
 
 declarative programming
+
+
+Virtual DOM
+
+steps:
+
+1. First render - First virtual DOM create
+2. changes - new virtual Dom create
+3. compare both (diffing)
+4. update original dom (reconciliation)
+
+
+React app creation 
+2 methods
+
+1. cra (create-react-app)
+2. vite(3rd party framework)
+
+npx (node package execute)
+npm 
+
+components 
+
+root componnet - App
+
+
