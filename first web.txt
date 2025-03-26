@@ -307,4 +307,29 @@ components
 
 root componnet - App
 
+hooks - state & lifecycle ( 1. creation(mounting) 2. updating (state or prop change) 3. destructuring (unmount))
+
+use__ - prefix
+
+
+useState
+
+
+const [state,setState] =useState() - for data types (render)
+
+
+props - one way ( parent - child)
+
+recieve as object (props, data,values)
+
+receiving types -
+1.object
+2. destructuring
+
+props drilling 
+
+useEffect - side effect ( no return)
+1. continuous render
+2. one time
+3. condition (dependencies)
 
