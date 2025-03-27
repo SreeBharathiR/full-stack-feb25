@@ -1,6 +1,8 @@
-import React from "react";
+import React, { useContext } from "react";
+import CounterContext from "../context/CounterContext";
 
-const Button = ({ increment, value, disable }) => {
+const Button = ({ value, disable }) => {
+  const { increment } = useContext(CounterContext);
   return (
     <button onClick={increment} disabled={disable}>
       {value}

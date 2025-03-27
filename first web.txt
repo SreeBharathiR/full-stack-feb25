@@ -333,3 +333,20 @@ useEffect - side effect ( no return)
 2. one time
 3. condition (dependencies)
 
+
+props drilling solving methods 
+
+1. Component composition
+2. context Api
+3. Redux - third party lib
+
+
+children
+
+wrapper component
+
+Context api
+1.create context - createContext
+2.values (provider)  - only value (pass as obj)
+3.use (useConetxt)
+

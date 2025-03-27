@@ -1,28 +1,14 @@
-import React, { useEffect, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import Button from "./Button";
+import CounterContext from "../context/CounterContext";
 
-const FirstComponent = ({
-  Firstname,
-  location,
-  phno,
-  list,
-  handleDisable,
-  disable,
-}) => {
+const FirstComponent = () => {
   // let count = 0;
-  const [count, setCount] = useState(-2);
+  const { Firstname, count } = useContext(CounterContext);
   const [name, setName] = useState(Firstname);
 
   const [array, setArray] = useState([]);
 
-  function increment() {
-    if (count >= 5) {
-      handleDisable();
-    }
-    setCount(count + 1);
-
-    // setName(name + "s");
-  }
   // console.log(disable);
   // console.log(location);
 
@@ -32,11 +18,8 @@ const FirstComponent = ({
   return (
     <>
       <p>{count}</p>
-      <Button
-        increment={increment}
-        value={"Increament"}
-        disable={disable}
-      ></Button>
+      <Button value={"Increament"} disable={count >= 5 ? true : false}></Button>
+      <Button value={"decrement"} disable={count < 1 ? true : false}></Button>
       <p>{name}</p>
       <input
         type="text"
