@@ -350,3 +350,8 @@ Context api
 2.values (provider)  - only value (pass as obj)
 3.use (useConetxt)
 
+app stop - ctrl + c
+
+
+useReducer - state management 
+

@@ -1,6 +1,6 @@
 import { createContext, useState } from "react";
 
-const CounterContext = createContext();
+const CounterContext = createContext({ count: 0 });
 
 export const ContextProvider = ({ children }) => {
   const [disable, setDisable] = useState(false);
