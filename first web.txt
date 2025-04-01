@@ -275,7 +275,7 @@ rest operator - ...
 
 "React"
 
-page reload
+page reload -spa
 
 component - reusable, hard code
 
@@ -315,7 +315,7 @@ use__ - prefix
 useState
 
 
-const [state,setState] =useState() - for data types (render)
+const [state,setState] = useState() - for data types (render)
 
 
 props - one way ( parent - child)
@@ -348,10 +348,12 @@ wrapper component
 Context api
 1.create context - createContext
 2.values (provider)  - only value (pass as obj)
-3.use (useConetxt)
+3.use (useContext)
 
 app stop - ctrl + c
 
 
 useReducer - state management 
+
+[state, dispatch]=useReducer(reducerFunc,initialState)
 

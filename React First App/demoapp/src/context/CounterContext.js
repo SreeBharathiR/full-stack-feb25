@@ -5,7 +5,7 @@ const CounterContext = createContext({ count: 0 });
 export const ContextProvider = ({ children }) => {
   const [disable, setDisable] = useState(false);
   const [decrementDisble, setDecrementDisable] = useState(false);
-  const [count, setCount] = useState(1);
+  const [count, setCount] = useState(0);
   const handleDisable = () => {
     console.log("call function");
     setDisable((prev) => !prev);

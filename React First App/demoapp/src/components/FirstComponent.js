@@ -15,7 +15,7 @@ const FirstComponent = () => {
 
   useEffect(() => {
     console.log("hi");
-  }, [name]);
+  }, [count]);
   return (
     <>
       <p>{count}</p>
