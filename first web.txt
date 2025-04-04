@@ -357,3 +357,11 @@ useReducer - state management
 
 [state, dispatch]=useReducer(reducerFunc,initialState)
 
+useRef 
+
+
+routing -
+ 3 things 
+1. Browser router
+2. Routes
+3. Route
