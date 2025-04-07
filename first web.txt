@@ -365,3 +365,11 @@ routing -
 1. Browser router
 2. Routes
 3. Route
+
+programmatic navigation - useNavigate
+
+login -> validation check -> true ->navigate home   
+                          -> flase -> error msg
+
+Layout
+
