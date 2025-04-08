@@ -10,23 +10,32 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import ErrorPage from "./component/ErrorPage";
 import Meeting from "./component/Meeting";
 import Layout from "./component/Layout";
+import { AuthProvider } from "./context/AuthContext";
+import Login from "./component/Login";
+import ProtectiveRouter from "./component/ProtectiveRouter";
 
 function App() {
   const [mode, setMode] = useState("light");
   return (
-    <div className="app">
+    <AuthProvider>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Layout />}>
+          <Route
+            path="/"
+            element={
+              <ProtectiveRouter>
+                <Layout />
+              </ProtectiveRouter>
+            }
+          >
             <Route index element={<Home />} />
             <Route path="/about" element={<About />} />
-            <Route path="/:id" element={<Meeting />} />
           </Route>
-
+          <Route path="/login" element={<Login />} />
           <Route path="*" element={<ErrorPage />} />
         </Routes>
       </BrowserRouter>
-    </div>
+    </AuthProvider>
   );
 }
 
