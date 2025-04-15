@@ -377,3 +377,24 @@ protective router
 
 login separate
 
+
+
+Backend 
+
+DataBase 
+
+NoSQL - mongoDB, SQL - mySql
+
+
+SQL - DB , Table, Data ( row, col)
+
+NoSql - DB, Collection (folder), Documents
+
+MongoDB - BSON (binary JSON)
+
+1. MongoDB server - Data are in this server
+2. MongoDB Shell - ( quiers or commands )
+3. MongoDB compass - GUL
+4. MongoDB Atlas - cloud service 
+
+check - cmd (mongosh)
