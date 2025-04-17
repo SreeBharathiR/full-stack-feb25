@@ -398,3 +398,12 @@ MongoDB - BSON (binary JSON)
 4. MongoDB Atlas - cloud service 
 
 check - cmd (mongosh)
+
+db create
+collection create
+doc insert
+doc delete
+doc update
+
+operator  - $
+set - update
