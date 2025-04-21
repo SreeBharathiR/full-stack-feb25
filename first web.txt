@@ -407,3 +407,36 @@ doc update
 
 operator  - $
 set - update
+comparision operators
+lt
+gt
+gte
+lte
+eq
+ne
+Membership operators
+in
+not in
+Logical operators
+and
+or
+
+
+Express Js - Js lib
+npm i express
+
+Operations
+
+CRUD
+
+C Create  POST 
+R Read    GET
+U Update  PUT, PATCH
+D Delete  DELETE
+
+200,201
+400,401,403,404
+500,503
+
+nodemon - devlopement 
+
