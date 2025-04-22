@@ -440,3 +440,10 @@ D Delete  DELETE
 
 nodemon - devlopement 
 
+env
+db connection
+
+MVC -> Models(table or collection structure), View (csr,ssr), Controller -  all the logics (handler function)
+
+
+
